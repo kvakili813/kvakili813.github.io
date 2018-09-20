@@ -1,11 +1,11 @@
 # Site settings
 author: Kayvan Vakili
-title: 
+title: Ruby CLI Gem 
 header-img: img/home-bg.png
 email: kvakili813@gmail.com
 copyright_name: Kayvan Vakili
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Building a CNN Headline reader from scratch.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  kvakili813
