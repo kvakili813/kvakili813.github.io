@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Reacting to React"
-date:       2019-01-07 07:46:20 +0000
+date:       2019-01-07 02:46:21 -0500
 permalink:  reacting_to_react
 ---
 
