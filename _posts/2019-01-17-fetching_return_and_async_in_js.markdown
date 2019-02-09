@@ -1,12 +1,12 @@
 ---
 layout: post
 title:      "Fetching, Return and Async in JS "
-date:       2019-01-18 04:44:50 +0000
+date:       2019-01-17 23:44:51 -0500
 permalink:  fetching_return_and_async_in_js
 ---
 
 
-The more I work with JavaScript the more I realize that app development is about passing data. While working with JavaScript I have learned new ways of handling data on the front end. No longer am I required to communicate with the backend to render data. But in order to do this I had utilize and understand three main concepts: fetching, return and asynchronous.
+The more I work with JavaScript the more I realize that app development is about passing data. While working with JavaScript I have learned new ways of handling data on the front end. No longer am I required to communicate with the backend to render data. But in order to do this I had to utilize and understand three main concepts: fetching, return and asynchronous calls.
 
 ### Fetching and Return
 
@@ -17,6 +17,8 @@ fetch('http://localhost:3000/api/places')
       .then(response => response.json())
 ```
 
+**So, to put it simply, a *Promise* represents the expected result of an asynchronous call. It is a placeholder into which the successful result value or reason for failure will materialize. In the case of a fetch, the *Promise* is the eventual return value of a particular endpoint or url path.
+**
 It is also important to note that the purpose of a return statement is to terminate a function and return a specified value. If  return is called in a function body then that function's execution is stopped. This way we can ensure to retrieve the promised result.
 
 ### Async
