@@ -17,8 +17,8 @@ fetch('http://localhost:3000/api/places')
       .then(response => response.json())
 ```
 
-**So, to put it simply, a *Promise* represents the expected result of an asynchronous call. It is a placeholder into which the successful result value or reason for failure will materialize. In the case of a fetch, the *Promise* is the eventual return value of a particular endpoint or url path.
-**
+**So, to put it simply, a *Promise* represents the expected result of an asynchronous call. It is a placeholder into which the successful result value or reason for failure will materialize. In the case of a fetch, the *Promise* is the eventual return value of a particular endpoint or url path.**
+
 It is also important to note that the purpose of a return statement is to terminate a function and return a specified value. If  return is called in a function body then that function's execution is stopped. This way we can ensure to retrieve the promised result.
 
 ### Async
